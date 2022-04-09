@@ -1,7 +1,7 @@
 [package]
 name = "CodeAbbey_27"
 version = "0.1.0"
-authors = ["Brighton Sikarskie <brighton.sikarskie@tuta.io>"]
+authors = ["Brighton Sikarskie <bsikar@tuta.io>"]
 homepage = "https://www.codeabbey.com/index/task_view/bubble-sort"
 license = "MIT"
 edition = "2018"
