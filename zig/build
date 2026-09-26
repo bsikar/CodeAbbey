@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PATH="$ROOT/tools:$PATH"
+export PATH
+
+exec zig build "$@"

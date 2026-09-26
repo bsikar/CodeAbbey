@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+case " $* " in
+    *" --show-sdk-path "*)
+        printf '%s\n' /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+        ;;
+    *)
+        exec /usr/bin/xcrun "$@"
+        ;;
+esac
